@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower shop</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #222;
+            padding: 15px 0;
+            color: white;
+        }
+
+        /* 👉 container effect (left-right gap) */
+        header {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        /* or better option (recommended) */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* title */
+        header h3 {
+            font-family: Arial;
+        }
+
+        /* menu */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-family: Arial;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: orange;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* 4 columns */
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            font-family: Arial;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+        }
+
+        .buy,
+        .cart {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .buy {
+            background-color: green;
+        }
+
+        .cart {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>Flower Shop</h3>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="container">
+
+        <div class="product-card">
+            <img src="./Images/istockphoto-1126841725-612x612.webp">
+            <h3>Price: $50</h3>
+            <p>Code: P-101</p>
+            <div class="buttons">
+                <button class="buy">Buy Now</button>
+                <button class="cart">Add Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="./Images/istockphoto-1130636356-612x612.webp">
+            <h3>Price: $60</h3>
+            <p>Code: P-102</p>
+            <div class="buttons">
+                <button class="buy">Buy Now</button>
+                <button class="cart">Add Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="./Images/istockphoto-484259490-612x612.webp">
+            <h3>Price: $70</h3>
+            <p>Code: P-103</p>
+            <div class="buttons">
+                <button class="buy">Buy Now</button>
+                <button class="cart">Add Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="./Images/orange-flowers_BEZLL8TLGD.jpg">
+            <h3>Price: $80</h3>
+            <p>Code: P-104</p>
+            <div class="buttons">
+                <button class="buy">Buy Now</button>
+                <button class="cart">Add Cart</button>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
