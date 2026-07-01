@@ -1,0 +1,561 @@
+HTML Form, Input Type and Form UI
+
+
+1. HTML Form
+
+HTML Form is used to collect information from users.
+
+Examples:
+- Login form
+- Registration form
+- Search box
+- Contact form
+- Feedback form
+
+
+HTML uses the <form> tag to create a form.
+
+
+Basic Form Syntax:
+
+
+<form>
+
+    Form elements go here
+
+</form>
+
+
+
+Example:
+
+
+<form>
+
+Name:
+
+<input type="text">
+
+
+</form>
+
+
+
+--------------------------------------------------
+
+
+2. Form Attributes
+
+
+action Attribute:
+
+Defines where the form data will be sent.
+
+
+Example:
+
+<form action="submit.html">
+
+</form>
+
+
+
+method Attribute:
+
+Defines how data is sent.
+
+
+Two types:
+
+
+1. GET Method
+
+- Sends data through URL
+- Used for search forms
+
+
+Example:
+
+<form method="get">
+
+
+</form>
+
+
+
+2. POST Method
+
+- Sends data securely
+- Used for login, registration
+
+
+Example:
+
+<form method="post">
+
+
+</form>
+
+
+
+--------------------------------------------------
+
+
+3. HTML Input Tag
+
+
+The <input> tag is used to create fields where users enter information.
+
+
+Basic Syntax:
+
+
+<input type="type-name">
+
+
+
+Example:
+
+
+<input type="text">
+
+
+
+--------------------------------------------------
+
+
+4. HTML Input Types
+
+
+1. Text Input
+
+Used for normal text.
+
+
+Example:
+
+
+<input type="text" placeholder="Enter your name">
+
+
+
+Output:
+
+[ Enter your name ]
+
+
+
+--------------------------------------------------
+
+
+2. Password Input
+
+Used for passwords.
+
+Text becomes hidden.
+
+
+Example:
+
+
+<input type="password" placeholder="Enter password">
+
+
+
+Output:
+
+[ ******** ]
+
+
+
+--------------------------------------------------
+
+
+3. Email Input
+
+Used for email addresses.
+
+
+Example:
+
+
+<input type="email" placeholder="Enter email">
+
+
+
+--------------------------------------------------
+
+
+4. Number Input
+
+Used for numbers.
+
+
+Example:
+
+
+<input type="number">
+
+
+
+--------------------------------------------------
+
+
+5. Radio Button
+
+Used to select one option.
+
+
+Example:
+
+
+<input type="radio" name="gender">
+
+Male
+
+
+<input type="radio" name="gender">
+
+Female
+
+
+
+--------------------------------------------------
+
+
+6. Checkbox
+
+Used to select multiple options.
+
+
+Example:
+
+
+<input type="checkbox">
+
+HTML
+
+
+<input type="checkbox">
+
+CSS
+
+
+
+--------------------------------------------------
+
+
+7. Date Input
+
+Used to select date.
+
+
+Example:
+
+
+<input type="date">
+
+
+
+--------------------------------------------------
+
+
+8. File Input
+
+Used to upload files.
+
+
+Example:
+
+
+<input type="file">
+
+
+
+--------------------------------------------------
+
+
+9. Submit Button
+
+Used to submit the form.
+
+
+Example:
+
+
+<input type="submit" value="Submit">
+
+
+
+--------------------------------------------------
+
+
+10. Reset Button
+
+Clears all form data.
+
+
+Example:
+
+
+<input type="reset" value="Reset">
+
+
+
+--------------------------------------------------
+
+
+5. Other Form Elements
+
+
+Label Tag:
+
+Used to give a name to input fields.
+
+
+Example:
+
+
+<label>Name:</label>
+
+<input type="text">
+
+
+
+--------------------------------------------------
+
+
+Textarea:
+
+Used for large text input.
+
+
+Example:
+
+
+<textarea>
+
+Write your message
+
+</textarea>
+
+
+
+--------------------------------------------------
+
+
+Select Dropdown:
+
+Used to create a dropdown menu.
+
+
+Example:
+
+
+<select>
+
+
+<option>Bangladesh</option>
+
+
+<option>India</option>
+
+
+<option>USA</option>
+
+
+</select>
+
+
+
+--------------------------------------------------
+
+
+6. Complete HTML Form Example
+
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+<title>HTML Form Example</title>
+
+</head>
+
+
+
+<body>
+
+
+<h1>Registration Form</h1>
+
+
+
+<form>
+
+
+<label>Name:</label>
+
+<input type="text" placeholder="Enter your name">
+
+
+<br><br>
+
+
+
+<label>Email:</label>
+
+<input type="email" placeholder="Enter email">
+
+
+<br><br>
+
+
+
+<label>Password:</label>
+
+<input type="password" placeholder="Enter password">
+
+
+<br><br>
+
+
+
+<label>Gender:</label>
+
+
+<input type="radio" name="gender">
+
+Male
+
+
+<input type="radio" name="gender">
+
+Female
+
+
+
+<br><br>
+
+
+
+<label>Hobbies:</label>
+
+
+<input type="checkbox">
+
+Reading
+
+
+<input type="checkbox">
+
+Gaming
+
+
+
+<br><br>
+
+
+
+<label>Date of Birth:</label>
+
+
+<input type="date">
+
+
+
+<br><br>
+
+
+
+<label>Country:</label>
+
+
+<select>
+
+
+<option>Bangladesh</option>
+
+<option>India</option>
+
+<option>USA</option>
+
+
+</select>
+
+
+
+<br><br>
+
+
+
+<label>Message:</label>
+
+
+<br>
+
+
+<textarea>
+
+</textarea>
+
+
+
+<br><br>
+
+
+
+<input type="submit" value="Submit">
+
+
+<input type="reset" value="Reset">
+
+
+
+</form>
+
+
+
+</body>
+
+
+</html>
+
+
+
+--------------------------------------------------
+
+
+Summary:
+
+
+<form>          = Create form
+
+<input>         = Input field
+
+text            = Normal text
+
+password        = Hidden password
+
+email           = Email field
+
+number          = Number field
+
+radio           = Select one option
+
+checkbox        = Select multiple options
+
+date            = Date selection
+
+file            = Upload file
+
+submit          = Send form data
+
+reset           = Clear form
+
+<textarea>      = Large text box
+
+<select>        = Dropdown menu
