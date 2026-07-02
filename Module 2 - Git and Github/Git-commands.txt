@@ -1,0 +1,101 @@
+# ================================
+# NEW REPOSITORY SETUP (First Time)
+# ================================
+
+
+# 1. Project folder এ যাও
+cd your-project-folder
+# কাজ:
+# যে folder এ তোমার project file আছে সেখানে নিয়ে যাবে।
+# Example: cd D:\MyProject
+
+
+# 2. Git initialize করো
+git init
+# কাজ:
+# Project কে Git repository বানাবে।
+# .git নামে hidden folder তৈরি হবে।
+# এরপর Git সব changes track করতে পারবে।
+
+
+# 3. সব file staging এ add করো
+git add .
+# কাজ:
+# Project এর সব file commit এর জন্য ready করবে।
+# "." মানে current folder এর সব file।
+
+
+# 4. First commit করো
+git commit -m "First commit"
+# কাজ:
+# Project এর প্রথম snapshot save করবে।
+# -m মানে message (কি change হয়েছে সেটা লিখার জন্য)।
+
+
+# 5. GitHub repo connect করো
+git remote add origin https://github.com/your-username/your-repository-name.git
+# কাজ:
+# তোমার local project কে GitHub repository এর সাথে connect করবে।
+# "origin" = remote repository এর nickname।
+
+
+# 6. Branch name main সেট করো
+git branch -M main
+# কাজ:
+# Branch এর নাম main করে দিবে।
+# (-M force rename)
+
+
+# 7. GitHub এ code upload করো
+git push -u origin main
+# কাজ:
+# সব code GitHub এ push/upload করবে।
+# -u মানে future এ শুধু "git push" দিলেই হবে।
+
+
+
+# ================================
+# PROJECT UPDATE (Next Time)
+# ================================
+
+
+# নতুন change add করো
+git add .
+# কাজ:
+# নতুন বা modified file stage করবে।
+
+
+# নতুন commit save করো
+git commit -m "Updated project"
+# কাজ:
+# নতুন changes save করবে।
+
+
+# GitHub এ update push করো
+git push
+# কাজ:
+# নতুন changes GitHub এ upload করবে।
+
+
+
+# ================================
+# USEFUL CHECK COMMANDS
+# ================================
+
+
+# Current status check
+git status
+# কাজ:
+# কোন file modified / staged / untracked আছে দেখাবে।
+
+
+# Remote repo check
+git remote -v
+# কাজ:
+# কোন GitHub repo এর সাথে connected আছো সেটা দেখাবে।
+
+
+# Branch check
+git branch
+# কাজ:
+# বর্তমানে কোন branch এ আছো সেটা দেখাবে।
