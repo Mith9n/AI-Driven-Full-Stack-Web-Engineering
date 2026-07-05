@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Margin, Padding & Box Model</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#f4f4f4;
+            padding:30px;
+          
+        }
+
+       
+
+        h1{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .section{
+            background:white;
+            padding:20px;
+            margin-bottom:30px;
+            border-radius:10px;
+        }
+
+        /* Margin Example */
+
+        .margin-box{
+            width:250px;
+            background:skyblue;
+            padding:20px;
+            margin:30px;
+            border:3px solid blue;
+        }
+
+        /*
+                Padding Example
+         */
+
+        .padding-box{
+            width:250px;
+            background:lightgreen;
+            padding:40px;
+            border:3px solid green;
+        }
+
+        /* 
+                Box Model Example
+         */
+
+        .box-model{
+            width:300px;
+            height:150px;
+
+            background:orange;
+
+            padding:30px;
+
+            border:8px solid red;
+
+            margin:40px;
+
+            text-align:center;
+        }
+
+        /* 
+                Individual Margin
+       */
+
+        .margin-individual{
+            background:lightcoral;
+
+            margin-top:20px;
+            margin-right:40px;
+            margin-bottom:20px;
+            margin-left:60px;
+
+            padding:20px;
+        }
+
+        /* ===========================
+                Individual Padding
+        ============================ */
+
+        .padding-individual{
+            background:khaki;
+
+            padding-top:10px;
+            padding-right:30px;
+            padding-bottom:40px;
+            padding-left:50px;
+
+            border:2px solid black;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<h1>CSS Margin, Padding & Box Model</h1>
+
+<div class="section">
+
+    <h2>1. Margin Example</h2>
+
+    <div class="margin-box">
+        Margin adds space OUTSIDE the border.
+    </div>
+
+</div>
+
+<div class="section">
+
+    <h2>2. Padding Example</h2>
+
+    <div class="padding-box">
+        Padding adds space INSIDE the border.
+    </div>
+
+</div>
+
+<div class="section">
+
+    <h2>3. Box Model Example</h2>
+
+    <div class="box-model">
+        Width = 300px <br>
+        Padding = 30px <br>
+        Border = 8px <br>
+        Margin = 40px
+    </div>
+
+</div>
+
+<div class="section">
+
+    <h2>4. Individual Margin</h2>
+
+    <div class="margin-individual">
+        Different Margin on each side.
+    </div>
+
+</div>
+
+<div class="section">
+
+    <h2>5. Individual Padding</h2>
+
+    <div class="padding-individual">
+        Different Padding on each side.
+    </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Measuring Units, Font & Text</title>
+
+    <style>
+
+        /* Root Font Size */
+        html{
+            font-size:16px;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            margin:40px;
+            background:#f4f4f4;
+        }
+
+        h1{
+            text-align:center;
+            color:darkblue;
+            text-transform:uppercase;
+            letter-spacing:3px;
+            text-shadow:2px 2px 5px gray;
+        }
+
+        h2{
+            color:#333;
+            margin-top:40px;
+        }
+
+        .box{
+            background:white;
+            padding:20px;
+            margin:20px 0;
+            border-radius:8px;
+            border:2px solid #ddd;
+        }
+
+            /*CSS Measuring Units*/
+
+        .px{
+            width:300px;
+            background:lightblue;
+            padding:10px;
+        }
+
+        .percent{
+            width:50%;
+            background:lightgreen;
+            padding:10px;
+        }
+
+        .em{
+            font-size:2em;
+            color:crimson;
+        }
+
+        .rem{
+            font-size:2rem;
+            color:green;
+        }
+
+        .vw{
+            width:50vw;
+            background:orange;
+            padding:10px;
+        }
+
+        .vh{
+            height:20vh;
+            background:tomato;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+
+           /* Font Properties*/
+
+        .font-family{
+            font-family:Georgia, serif;
+        }
+
+        .font-size{
+            font-size:30px;
+        }
+
+        .font-weight{
+            font-weight:bold;
+        }
+
+        .font-style{
+            font-style:italic;
+        }
+
+        .line-height{
+            line-height:40px;
+        }
+
+            /*Text Properties*/
+
+        .text-align{
+            text-align:center;
+        }
+
+        .text-decoration{
+            text-decoration:underline;
+        }
+
+        .text-transform{
+            text-transform:capitalize;
+        }
+
+        .text-indent{
+            text-indent:60px;
+        }
+
+        .letter-spacing{
+            letter-spacing:5px;
+        }
+
+        .word-spacing{
+            word-spacing:15px;
+        }
+
+        .text-shadow{
+            text-shadow:3px 3px 5px gray;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>CSS Measuring Units, Font & Text</h1>
+
+<!-- Measuring Units -->
+
+<div class="box">
+
+    <h2>CSS Measuring Units</h2>
+
+    <div class="px">
+        Width : 300px
+    </div>
+
+    <br>
+
+    <div class="percent">
+        Width : 50%
+    </div>
+
+    <p class="em">
+        Font Size : 2em
+    </p>
+
+    <p class="rem">
+        Font Size : 2rem
+    </p>
+
+    <div class="vw">
+        Width : 50vw
+    </div>
+
+    <br>
+
+    <div class="vh">
+        Height : 20vh
+    </div>
+
+</div>
+
+<!-- Font -->
+
+<div class="box">
+
+    <h2>CSS Font Properties</h2>
+
+    <p class="font-family">
+        Font Family : Georgia
+    </p>
+
+    <p class="font-size">
+        Font Size : 30px
+    </p>
+
+    <p class="font-weight">
+        Font Weight : Bold
+    </p>
+
+    <p class="font-style">
+        Font Style : Italic
+    </p>
+
+    <p class="line-height">
+        Line Height increases the distance between lines.
+        <br>
+        This is the second line.
+    </p>
+
+</div>
+
+<!-- Text -->
+
+<div class="box">
+
+    <h2>CSS Text Properties</h2>
+
+    <p class="text-align">
+        Text Align Center
+    </p>
+
+    <p class="text-decoration">
+        Underline Text
+    </p>
+
+    <p class="text-transform">
+        this sentence becomes capitalize.
+    </p>
+
+    <p class="text-indent">
+        This paragraph uses text-indent property. The first line starts with extra space.
+    </p>
+
+    <p class="letter-spacing">
+        Letter Spacing Example
+    </p>
+
+    <p class="word-spacing">
+        Word Spacing Example
+    </p>
+
+    <p class="text-shadow">
+        Text Shadow Example
+    </p>
+
+</div>
+
+</body>
+</html>

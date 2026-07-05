@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Shadow & Background Image</title>
+
+    <style>
+
+        /* Body */
+
+        body{
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            padding: 30px;
+        }
+
+        /* Heading */
+
+        h1{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* Section */
+
+        .section{
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+        }
+
+        /* Common Box */
+
+        .box{
+            width: 250px;
+            height: 120px;
+            background: skyblue;
+            margin: 20px;
+            padding: 20px;
+            display: inline-block;
+            text-align: center;
+            line-height: 80px;
+        }
+
+        /* Simple Box Shadow */
+
+        .shadow1{
+            box-shadow: 5px 5px 10px gray;
+        }
+
+        /* Large Shadow */
+
+        .shadow2{
+            box-shadow: 10px 10px 20px black;
+        }
+
+        /* Soft Shadow */
+
+        .shadow3{
+            box-shadow: 0 0 20px gray;
+        }
+
+        /* Colored Shadow */
+
+        .shadow4{
+            box-shadow: 5px 5px 15px red;
+        }
+
+        /* Background Image */
+
+        .bg-image{
+            width: 100%;
+            height: 300px;
+
+            background-image: url("./Img/orange-flowers_BEZLL8TLGD.jpg");
+
+            background-repeat: no-repeat;
+
+            background-size: cover;
+
+            background-position: center;
+
+            border-radius: 10px;
+
+        }
+
+        .bg-image h3{
+            text-align: center;
+            line-height: 300px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<h1>CSS Box Shadow & Background Image</h1>
+
+<!-- Box Shadow -->
+
+<div class="section">
+
+<h2>Box Shadow Examples</h2>
+
+<div class="box shadow1">
+    Shadow 1
+</div>
+
+<div class="box shadow2">
+    Shadow 2
+</div>
+
+<div class="box shadow3">
+    Shadow 3
+</div>
+
+<div class="box shadow4">
+    Shadow 4
+</div>
+
+</div>
+
+<!-- Background Image -->
+
+<div class="section">
+
+<h2>Background Image</h2>
+
+<div class="bg-image">
+    <h3>Background Image</h3>
+</div>
+
+</div>
+
+</body>
+</html>

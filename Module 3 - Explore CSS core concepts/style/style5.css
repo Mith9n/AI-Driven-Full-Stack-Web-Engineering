@@ -1,0 +1,106 @@
+
+        /* 1. Attribute Selector */
+        input[type="text"]{
+            border:2px solid blue;
+        }
+
+        /* 2. Attribute Starts With */
+        a[href^="https"]{
+            color:green;
+        }
+
+        /* 3. Attribute Ends With */
+        a[href$=".com"]{
+            font-weight:bold;
+        }
+
+        /* 4. Attribute Contains */
+        img[src*="logo"]{
+            border:3px solid red;
+        }
+
+        /* 5. First Child */
+        li:first-child{
+            color:red;
+        }
+
+        /* 6. Last Child */
+        li:last-child{
+            color:green;
+        }
+
+        /* 7. nth-child() */
+        li:nth-child(2){
+            color:blue;
+        }
+
+        /* 8. nth-of-type() */
+        p:nth-of-type(2){
+            background:lightyellow;
+        }
+
+        /* 9. Not Selector */
+        p:not(.special){
+            color:gray;
+        }
+
+        /* 10. Empty Selector */
+        div:empty{
+            width:100px;
+            height:40px;
+            background:tomato;
+        }
+
+        /* 11. Checked */
+        input:checked{
+            accent-color:green;
+        }
+
+        /* 12. Disabled */
+        input:disabled{
+            background:#ddd;
+        }
+
+        /* 13. Enabled */
+        input:enabled{
+            border:2px solid green;
+        }
+
+        /* 14. Focus */
+        input:focus{
+            outline:3px solid orange;
+        }
+
+        /* 15. Hover */
+        button:hover{
+            background:black;
+            color:white;
+        }
+
+        /* 16. Before */
+        h2::before{
+            content:"👉 ";
+        }
+
+        /* 17. After */
+        h2::after{
+            content:" ✔";
+        }
+
+        /* 18. First Letter */
+        p::first-letter{
+            font-size:30px;
+            color:crimson;
+        }
+
+        /* 19. First Line */
+        p::first-line{
+            font-weight:bold;
+        }
+
+        /* 20. Selection */
+        ::selection{
+            background:black;
+            color:white;
+        }
+

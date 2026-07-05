@@ -1,0 +1,100 @@
+/* CSS Selectors */
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1. Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* 2. Element Selector */
+h1 {
+    color: blue;
+}
+
+/* 3. Class Selector */
+.title {
+    color: green;
+}
+
+/* 4. ID Selector */
+#header {
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* 5. Group Selector */
+h2,
+p {
+    color: purple;
+}
+
+/* 6. Descendant Selector */
+.container p {
+    color: red;
+}
+
+/* 7. Child Selector */
+.box>p {
+    font-weight: bold;
+}
+
+/* 8. Adjacent Sibling Selector */
+h3+p {
+    color: orange;
+}
+
+/* 9. General Sibling Selector */
+h4~p {
+    background-color: lightyellow;
+}
+
+/* 10. Attribute Selector */
+input[type="text"] {
+    border: 2px solid blue;
+}
+
+/* 11. Hover Pseudo-class */
+button:hover {
+    background: black;
+    color: white;
+}
+
+/* 12. Focus Pseudo-class */
+input:focus {
+    outline: 2px solid red;
+}
+
+/* 13. First Child */
+li:first-child {
+    color: red;
+}
+
+/* 14. Last Child */
+li:last-child {
+    color: green;
+}
+
+/* 15. nth-child */
+li:nth-child(2) {
+    color: blue;
+}
+
+/* 16. Pseudo-element */
+.demo::before {
+    content: "👉 ";
+}
+
+.demo::after {
+    content: " ✔";
+}
+
+.demo::first-letter {
+    font-size: 30px;
+    color: crimson;
+}
