@@ -114,7 +114,6 @@ body {
     font-weight: 700;
     text-decoration: none;
 }
-
 /* Banner Section End */
 
 /* Meet the Speakers Section Start */
@@ -181,5 +180,143 @@ body {
     line-height: 1.5;
     color: #4b5563;
 }
-
 /* Meet the Speakers Section End */
+
+/* Pricing Section Start */
+
+.pricing-section {
+  padding: 70px 0;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.pricing-heading {
+  text-align: center;
+  margin-bottom: 42px;
+}
+
+.pricing-heading h2 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #071b32;
+}
+
+.pricing-heading p {
+  margin-top: 14px;
+  font-size: 14px;
+  color: #4b5563;
+}
+
+.pricing-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.pricing-card {
+  padding: 28px 28px 26px;
+  border: 1px solid #d9dee8;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.pricing-card-dark {
+  background-color: #0d1f30;
+  border-color: #0d1f30;
+  color: #ffffff;
+}
+
+.pricing-type {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #5b6b7c;
+}
+
+.pricing-card-dark .pricing-type {
+  color: #58a6ff;
+}
+
+.pricing-card h3 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 1;
+  font-weight: 700;
+  color: #071b32;
+}
+
+.pricing-card-dark h3 {
+  color: #ffffff;
+}
+
+.pricing-note {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.pricing-card-dark .pricing-note {
+  color: #cbd5e1;
+}
+
+.pricing-card ul {
+  margin: 28px 0 24px;
+  padding: 22px 0 0 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.pricing-card-dark ul {
+  border-top-color: #24384c;
+}
+
+.pricing-card ul li {
+  margin-bottom: 13px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #263548;
+}
+
+.pricing-card-dark ul li {
+  color: #ffffff;
+}
+
+.pricing-card ul li::marker {
+  color: #2563eb;
+}
+
+.pricing-btn {
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.btn-outline {
+  border: 1px solid #2563eb;
+  color: #2563eb;
+  background-color: #ffffff;
+}
+
+.btn-fill {
+  border: 1px solid #2563eb;
+  color: #ffffff;
+  background-color: #2563eb;
+}
+
+.btn-dark-outline {
+  border: 1px solid #071b32;
+  color: #071b32;
+  background-color: #ffffff;
+}
+/* Pricing Section End */
