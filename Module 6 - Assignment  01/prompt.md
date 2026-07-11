@@ -1,0 +1,1 @@
+Create an Event Schedule Highlights section for DevConf 2026. Make a large dark navy rounded box. On the left side, add a small blue label, big white title, short gray description, and a blue button. On the right side, add 3 small dark cards stacked vertically for Day 01,Day 02 and Day 03. Each card should have a blue day label, white title, and gray short text.

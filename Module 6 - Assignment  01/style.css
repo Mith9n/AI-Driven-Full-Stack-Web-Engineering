@@ -131,8 +131,9 @@ body {
     margin-bottom: 35px;
     text-align: center;
     font-size: 32px;
-    font-weight: 700;
+    font-weight: 800;
     color: #111111;
+    
 }
 
 .speakers-wrapper {
@@ -183,7 +184,6 @@ body {
 /* Meet the Speakers Section End */
 
 /* Pricing Section Start */
-
 .pricing-section {
   padding: 70px 0;
   background-color: #ffffff;
@@ -320,3 +320,97 @@ body {
   background-color: #ffffff;
 }
 /* Pricing Section End */
+
+
+/* Event Schedule Section Start */
+.event-schedule {
+  padding: 70px 0;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.schedule-box {
+  padding: 48px;
+  border-radius: 10px;
+  background-color: #0d1f30;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 42px;
+  align-items: center;
+}
+
+.schedule-label {
+  display: inline-block;
+  margin-bottom: 14px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #60a5fa;
+  letter-spacing: 0.8px;
+}
+
+.schedule-content h2 {
+  margin: 0;
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.schedule-content p {
+  margin-top: 16px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #cbd5e1;
+}
+
+.schedule-main-btn {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 13px 26px;
+  background-color: #2563eb;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.schedule-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.schedule-item {
+  padding: 22px 24px;
+  border: 1px solid #24384c;
+  border-radius: 8px;
+  background-color: #12283d;
+}
+
+.schedule-item span {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #60a5fa;
+}
+
+.schedule-item h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.schedule-item p {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cbd5e1;
+}
+/* Event Schedule Section End */
