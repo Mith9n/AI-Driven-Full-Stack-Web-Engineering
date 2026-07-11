@@ -63,7 +63,7 @@ body {
 /* Banner Section Start */
 .banner {
     width: 100%;
-    height: 440px;
+    height: 500px;
     background:
         linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)),
         url("./assets/banner.jpg");
@@ -105,7 +105,7 @@ body {
 
 .banner-btn {
     display: inline-block;
-    margin-top: 150px;
+    margin-top: 210px;
     padding: 14px 36px;
     background-color: #2458e6;
     color: #ffffff;
@@ -122,11 +122,12 @@ body {
     background-color: #ffffff;
 }
 
+/* Shared Container */
 .container {
     width: 1170px;
     margin: 0 auto;
 }
-
+/* ---------------- */
 .speakers-title {
     margin-bottom: 35px;
     text-align: center;
@@ -189,10 +190,6 @@ body {
   background-color: #ffffff;
 }
 
-.container {
-  width: 1170px;
-  margin: 0 auto;
-}
 
 .pricing-heading {
   text-align: center;
@@ -328,11 +325,6 @@ body {
   background-color: #ffffff;
 }
 
-.container {
-  width: 1170px;
-  margin: 0 auto;
-}
-
 .schedule-box {
   padding: 48px;
   border-radius: 10px;
@@ -414,3 +406,62 @@ body {
   color: #cbd5e1;
 }
 /* Event Schedule Section End */
+
+/* Footer Section Start */
+.footer {
+  padding: 24px 0;
+  background-color: #0d1f30;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text {
+  width: 33.33%;
+  font-size: 13px;
+  font-weight: 400;
+  color: #cbd5e1;
+}
+
+.footer-icons {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-icons a {
+  display: inline-block;
+}
+
+.footer-icons img {
+  width: 18px;
+  height: 18px;
+  display: block;
+  object-fit: contain;
+}
+
+.footer-links {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 22px;
+}
+
+.footer-links a {
+  font-size: 13px;
+  font-weight: 400;
+  color: #cbd5e1;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+/* Footer Section End */
+
