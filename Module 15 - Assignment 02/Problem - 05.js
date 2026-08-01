@@ -1,11 +1,7 @@
 function averageResponseTime(times) {
-  if (Array.isArray(times) === false) {
+  if (Array.isArray(times) === false || times.length === 0) {
         return "Invalid";
    }
-
-   if (times.length === 0) {
-        return "Invalid";
-    }
 
  let total = 0;
 

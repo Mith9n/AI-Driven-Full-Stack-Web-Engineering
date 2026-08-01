@@ -6,7 +6,6 @@ function isElevatorSafe(weights) {
     let total_weight = 0;
     for(let value of weights){
     total_weight +=value;
-    console.log(total_weight);
     }
 
     if(total_weight <= 400){
