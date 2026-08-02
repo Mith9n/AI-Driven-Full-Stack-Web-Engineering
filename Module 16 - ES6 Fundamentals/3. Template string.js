@@ -18,3 +18,12 @@ console.log(`
 }
 let money = [2400,3000,1300,1550];
 shopping(money)
+
+
+
+function paymentHistory(amount) {
+    return`Congratulations! Your payment request has been submitted successfully.
+    Payment Amount: ৳${amount}.`;
+}
+
+console.log(paymentHistory(12000));
