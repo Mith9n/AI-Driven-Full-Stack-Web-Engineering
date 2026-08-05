@@ -38,7 +38,7 @@ num.forEach(function (val){
 })
 
 
-// file usin normal funtion 
+// filter usin normal funtion 
 const filters = num.filter(function(nums){
     return 3 < nums;
 })
