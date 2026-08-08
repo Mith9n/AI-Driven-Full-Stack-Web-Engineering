@@ -1,6 +1,7 @@
 // Add grade to each student result 
 //  Example [{Name : "Shawon" , marks : 83 , grad :A}]
 
+
 const addGrade = (students_data)=>{
     for(let student of students_data){
         if(student.marks >=90){
