@@ -44,12 +44,13 @@ const calculate_the_purchase_items = (products) =>{
     let total_price = 0;
     for( let i = 0; i < products.length ; i++){
         quantitys += products[i].quantity;
-        total_price += products[i].price * products[i];
+        total_price += products[i].price * products[i].quantity;
     } 
 
     return `Total : ${quantitys} items , ${total_price} Taka`;
 } 
 
 console.log(calculate_the_purchase_items(products));
+
 
 
