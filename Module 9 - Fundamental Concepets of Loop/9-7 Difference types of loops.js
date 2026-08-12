@@ -9,8 +9,6 @@ for (let i = 1; i <= 5; i++) {
 }
 
 
-
-
 // 2. while Loop
 // Use: When the number of iterations is unknown and depends on a condition.
 
