@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Litton Das",
+    "team": "Dhaka Capitals",
+    "role": "Wicket Keeper",
+    "price": 9.5,
+    "image": "https://khela71.com/wp-content/uploads/2020/10/Liton-Das-pic-5.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Najmul Hossain Shanto",
+    "team": "Rangpur Riders",
+    "role": "Batsman",
+    "price": 9.0,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/63872.png"
+  },
+  {
+    "id": 3,
+    "name": "Towhid Hridoy",
+    "team": "Fortune Barishal",
+    "role": "Batsman",
+    "price": 8.5,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/67719.png"
+  },
+  {
+    "id": 4,
+    "name": "Tanzid Hasan",
+    "team": "Dhaka Capitals",
+    "role": "Batsman",
+    "price": 7.5,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/6122/70206.png"
+  },
+  {
+    "id": 5,
+    "name": "Soumya Sarkar",
+    "team": "Fortune Barishal",
+    "role": "All Rounder",
+    "price": 8.0,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/6122/61831.png"
+  },
+  {
+    "id": 6,
+    "name": "Mehidy Hasan Miraz",
+    "team": "Chattogram Kings",
+    "role": "All Rounder",
+    "price": 9.0,
+    "image": "https://www.bssnews.net/assets/news_photos/2025/09/13/image-311422-1757772901.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Rishad Hossain",
+    "team": "Rangpur Riders",
+    "role": "All Rounder",
+    "price": 7.5,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwAEl8WhM-yn3yx0FjgnuxCWjA7MdQoKlAGBFEcc56jA&s"
+  },
+  {
+    "id": 8,
+    "name": "Shakib Al Hasan",
+    "team": "Dhaka Capitals",
+    "role": "All Rounder",
+    "price": 10.0,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqxOfEODBIVfGV77cf9EbufwxR-3BFq_I6liqbLLXJY-lvjfVnI6ktXUPo4c_Q8_tjPS3rvFBDssCpgjw2_rpxfj8SRyfGYXfuyT2zPxTFS8r-Cks&s=10"
+  },
+  {
+    "id": 9,
+    "name": "Mustafizur Rahman",
+    "team": "Comilla Victorians",
+    "role": "Bowler",
+    "price": 8.5,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/6122/63881.png"
+  },
+  {
+    "id": 10,
+    "name": "Taskin Ahmed",
+    "team": "Dhaka Capitals",
+    "role": "Bowler",
+    "price": 8.5,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/58314.png"
+  },
+  {
+    "id": 11,
+    "name": "Tanzim Hasan Sakib",
+    "team": "Sylhet Strikers",
+    "role": "Bowler",
+    "price": 7.0,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/6122/70921.png"
+  },
+  {
+    "id": 12,
+    "name": "Nasum Ahmed",
+    "team": "Sylhet Strikers",
+    "role": "Bowler",
+    "price": 7.0,
+    "image": "https://files.prokerala.com/news/photos/imgs/1024/bangladesh-call-up-uncapped-nasum-ahmed-to-the-squad-for-second-test-1494821.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Shoriful Islam",
+    "team": "Fortune Barishal",
+    "role": "Bowler",
+    "price": 7.5,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/6122/66332.png"
+  },
+  {
+    "id": 14,
+    "name": "Hasan Mahmud",
+    "team": "Rangpur Riders",
+    "role": "Bowler",
+    "price": 7.0,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZNtKLUz3U_smOgVVDPJT7QLNUTsE-Ocv3hSBhgxIgf-oa7sU3U5HDNZY&s=10"
+  },
+  {
+    "id": 15,
+    "name": "Mushfiqur Rahim",
+    "team": "Fortune Barishal",
+    "role": "Wicket Keeper",
+    "price": 9.0,
+    "image": "https://www.wisden.com/static-assets/images/players/3693.png?v=23.77"
+  },
+  {
+    "id": 16,
+    "name": "Sabbir Rahman",
+    "team": "Sylhet Strikers",
+    "role": "Batsman",
+    "price": 6.5,
+    "image": "https://static-files.cricket-australia.pulselive.com/headshots/440/693-camedia.png"
+  },
+  {
+    "id": 17,
+    "name": "Afif Hossain",
+    "team": "Comilla Victorians",
+    "role": "All Rounder",
+    "price": 7.5,
+    "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_640,q_50/lsci/db/PICTURES/CMS/323100/323159.png"
+  },
+  {
+    "id": 18,
+    "name": "Anamul Haque Bijoy",
+    "team": "Khulna Tigers",
+    "role": "Wicket Keeper",
+    "price": 7.5,
+    "image": "https://www.wisden.com/static-assets/images/players/10207.png?v=23.77"
+  },
+  {
+    "id": 19,
+    "name": "Mahmudul Hasan Joy",
+    "team": "Chattogram Kings",
+    "role": "Batsman",
+    "price": 7.0,
+    "image": "https://www.wisden.com/static-assets/images/players/70291.png?v=23.77"
+  },
+  {
+    "id": 20,
+    "name": "Parvez Hossain Emon",
+    "team": "Sylhet Strikers",
+    "role": "Batsman",
+    "price": 7.0,
+    "image": "https://img.cricketmazza.com/1714903756PrevaizHussainEmon.png"
+  },
+  {
+    "id": 21,
+    "name": "Jaker Ali",
+    "team": "Comilla Victorians",
+    "role": "Wicket Keeper",
+    "price": 7.5,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg/prd/assets/players/6122/65411.png"
+  },
+  {
+    "id": 22,
+    "name": "Mahedi Hasan",
+    "team": "Rangpur Riders",
+    "role": "All Rounder",
+    "price": 8.0,
+    "image": "https://www.wisden.com/static-assets/images/players/65473.png?v=23.77"
+  },
+  {
+    "id": 23,
+    "name": "Mosaddek Hossain",
+    "team": "Khulna Tigers",
+    "role": "All Rounder",
+    "price": 7.0,
+    "image": "https://img.ipl.com/upload/20250919/1d9d6f35c791443bd581be82e16e59f2.png"
+  },
+  {
+    "id": 24,
+    "name": "Nasir Hossain",
+    "team": "Dhaka Capitals",
+    "role": "All Rounder",
+    "price": 7.0,
+    "image": "https://static-files.cricket-australia.pulselive.com/headshots/440/830-camedia.png"
+  },
+  {
+    "id": 25,
+    "name": "Rubel Hossain",
+    "team": "Khulna Tigers",
+    "role": "Bowler",
+    "price": 6.5,
+    "image": "https://images.mid-day.com/images/images/2017/sep/Rubel-Hossain.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Ebadot Hossain",
+    "team": "Sylhet Strikers",
+    "role": "Bowler",
+    "price": 7.5,
+    "image": "https://img1.hscicdn.com/image/upload/f_auto%2Ct_ds_square_w_640%2Cq_50/lsci/db/PICTURES/CMS/345000/345078.png"
+  },
+  {
+    "id": 27,
+    "name": "Nahid Rana",
+    "team": "Chattogram Kings",
+    "role": "Bowler",
+    "price": 7.5,
+    "image": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/89235.png"
+  },
+  {
+    "id": 28,
+    "name": "Mukidul Miah",
+    "team": "Rangpur Riders",
+    "role": "Bowler",
+    "price": 6.0,
+    "image": "https://khela71.com/wp-content/uploads/2022/07/Mukidul-Islam-Mugdho-pic-khela71-4.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Shahadat Hossain Dipu",
+    "team": "Comilla Victorians",
+    "role": "Batsman",
+    "price": 6.5,
+    "image": "https://api.bdcrictime.com/dipu-smiling-05_06_2023.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Mohammad Saifuddin",
+    "team": "Fortune Barishal",
+    "role": "All Rounder",
+    "price": 7.5,
+    "image": "https://www.wisden.com/static-assets/images/players/64151.png?v=23.77"
+  }
+]

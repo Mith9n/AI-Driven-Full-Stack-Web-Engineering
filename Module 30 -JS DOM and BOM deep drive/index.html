@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DOM Practice</title>
+
+    <style>
+        /* পুরো page-এর basic design */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        /* Main container */
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        /* Heading */
+        #title {
+            color: darkblue;
+        }
+
+        /* Paragraph */
+        #message {
+            font-size: 18px;
+        }
+
+        /* Button */
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 id="title">Welcome to DOM</h1>
+
+        <p id="message">
+            I am learning JavaScript DOM
+        </p>
+
+        <p class="item">HTML</p>
+        <p class="item">CSS</p>
+        <p class="item">JavaScript</p>
+
+        <!-- Button -->
+        <button id="changeBtn">Change Text</button>
+        <button id="resetBtn">Reset Text</button>
+
+        <p id="text">Old Text</p>
+    <button id="cng">Change text</button>
+
+        
+    </div>
+
+    
+
+<script src="script.js">
+</script>
+  
+</body>
+</html>
