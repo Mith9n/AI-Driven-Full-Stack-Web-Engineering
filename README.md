@@ -8,7 +8,6 @@ A structured, module-based journey through modern web development — from HTML/
 [![Language](https://img.shields.io/badge/Language-CSS3-1572B6?logo=css3&logoColor=white)](.)
 [![Language](https://img.shields.io/badge/Language-JavaScript-F7DF1E?logo=javascript&logoColor=black)](.)
 [![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?logo=typescript&logoColor=white)](.)
-[![Framework](https://img.shields.io/badge/Framework-React-61DAFB?logo=react&logoColor black)](.)
 [![Tooling](https://img.shields.io/badge/Bundler-Vite-646CFF?logo=vite&logoColor=white)](.)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen)](.)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
